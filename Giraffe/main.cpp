@@ -32,6 +32,7 @@ int main()
     /*Print a string, can be a constant OR a variable*/
     //cout << grade << endl;
 
+    /*Put \n within a string to start a new line.*/
     //cout << "Testing new lines \nTesting new line 2" << endl;
 
     /*Print a strings length*/
@@ -43,6 +44,23 @@ int main()
     /*Assign a new character in a string*/
     //phrase[0] = 'B';
     //cout << phrase;
+
+    /*Find where a phrase starts within a string
+        in "Giraffe Academy", "Academy" starts at
+        the 8th index position in the string.*/
+    //cout << phrase.find("Academy", 0);
+
+    /*Finding a specific part of a string.
+      First variable is where the string print starts
+      Second variable is how much of the string
+      is to be printed after that point.*/
+    //cout << phrase.substr(8, 3);
+
+    /* You can store the substring as a new variable
+       and print it somewhere else in the program */
+    //string phrasesub;
+    //phrasesub = phrase.substr(8, 3);
+    //cout << phrasesub;
 
     return 0;
 }

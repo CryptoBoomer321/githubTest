@@ -6,7 +6,7 @@ int main()
 {
     /*  This is a multi-line comment
         You can use this for multiple lines of text
-        to describe a function etc...  */
+        to describe a function etc.  */
 
     // This is a single-line comment for more brief descriptions...
 
